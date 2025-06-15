@@ -7,7 +7,7 @@ from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
 
-DATASET_DIR = "./dataset"
+DATASET_DIR = "../dataset"
 CHROMA_DIR = "./vector_db"
 CHROMA_COLLECTION = "product_catalog"
 
